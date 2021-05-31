@@ -16,6 +16,16 @@ public class IfElse {
 			System.out.println("Number is 6-9 inclusive or 12");
 		}
 		
+		int hours = 19;
+		
+		if(hours < 13) {
+			System.out.println("Good Morning: " + hours);
+		} else if(hours < 18) {
+			System.out.println("Good Afternoon: " + hours);
+		} else {
+			System.out.println("Good Evening: " + hours);
+		}
+		
 		
 
 	}
