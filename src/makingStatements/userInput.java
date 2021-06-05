@@ -8,6 +8,7 @@ public class userInput {
 		System.out.println("What is your name?");
 	
 		
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		String name = scanner.nextLine();
 		
