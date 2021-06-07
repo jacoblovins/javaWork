@@ -24,16 +24,13 @@ public class Palindrome {
 	
 	
 	public static String reverse(String input) {
+		String reversed = "";
 		
-		if(input == null || input.isEmpty()) {
-			
-			return input;
-			
-		} else {
-			
-			return input.charAt(input.length() - 1) + reverse(input.substring(0, input.length() - 1));
-			
+		for(int i = input.length()-1; i >=0; i--) {
+			reversed += input.charAt(i);
 		}
+		
+		return reversed;
 	}
 
 }
