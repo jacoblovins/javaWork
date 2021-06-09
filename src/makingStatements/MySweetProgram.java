@@ -8,8 +8,7 @@ public class MySweetProgram {
 		user.firstname = "Sub";
 		user.lastname = "Scriber";
 		
-		System.out.println(user.firstname);
-		user.output(6);
+		System.out.println(user.output());
 	}
 
 }

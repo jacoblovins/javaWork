@@ -5,11 +5,11 @@ public class User {
 	public String firstname;
 	public String lastname;
 	
-	public void output(int times) {
+	public String output() {
 		
-		for(int i = 0; i < times; i++) {
-			System.out.println(firstname + " " + lastname);			
-		}
+		
+		return "Hi, my name is " + firstname + " " + lastname;			
+		
 		
 	}
 	
