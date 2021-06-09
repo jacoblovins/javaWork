@@ -2,8 +2,8 @@ package makingStatements;
 
 public class User {
 
-	public String firstname;
-	public String lastname;
+	private String firstname;
+	private String lastname;
 	
 	public String output() {
 		
@@ -11,6 +11,21 @@ public class User {
 		return "Hi, my name is " + firstname + " " + lastname;			
 		
 		
+	}
+	
+	public String getFirstname() {
+		return firstname;
+	}
+	public void setFirstname(String name) {
+		firstname = name;
+	}
+
+	public String getLastname() {
+		return lastname;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
 	}
 	
 }

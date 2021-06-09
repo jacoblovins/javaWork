@@ -5,10 +5,10 @@ public class MySweetProgram {
 	public static void main(String[] args) {
 		User user = new User();
 		
-		user.firstname = "Sub";
-		user.lastname = "Scriber";
+		user.setFirstname("Sub");
+		user.setLastname("Scriber");
 		
-		System.out.println(user.output());
+		System.out.println(user.getFirstname() + " " + user.getLastname());
 	}
 
 }
