@@ -8,7 +8,7 @@ public class MySweetProgram {
 		user.setFirstname("Sub");
 		user.setLastname("Scriber");
 		
-		System.out.println(user.getFirstname() + " " + user.getLastname());
+		System.out.println(user.getFullName());
 	}
 
 }

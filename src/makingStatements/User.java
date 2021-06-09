@@ -28,4 +28,8 @@ public class User {
 		this.lastname = lastname;
 	}
 	
+	public String getFullName() {
+		return getFirstname() + " " + getLastname();
+	}
+	
 }
