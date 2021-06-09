@@ -43,4 +43,19 @@ public class User {
 			System.out.println(u.getFullName());
 		}
 	}
+	
+	public static int searchList(List<User> users, String fn, String ln) {
+		return searchList(users, fn + " " + ln);
+		
+	}
+	
+	public static int searchList(List<User> users,  String fullName) {
+		for(int i = 0; i < users.size(); i++) {
+			if(users.get(i).getFullName().equals(fullName)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	 
 }

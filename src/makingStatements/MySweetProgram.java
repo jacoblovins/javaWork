@@ -19,11 +19,7 @@ public class MySweetProgram {
 		users.add(me);
 		users.add(you);
 		
-		User.printUsers(users);
-		
-		System.out.println(me.output(false));
-		
-		
+		System.out.println(User.searchList(users, "Charles", "Spurgeon"));
 	}
 	
 
