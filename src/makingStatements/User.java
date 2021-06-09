@@ -32,4 +32,8 @@ public class User {
 		return getFirstname() + " " + getLastname();
 	}
 	
+	
+	public static void printUser(User u) {
+		System.out.println(u.getFullName());
+	}
 }

@@ -21,9 +21,10 @@ public class MySweetProgram {
 		for(User u: users) {
 			System.out.println(u.getFullName());
 		}
-		
-		
+
+		User.printUser(users.get(0));
 		
 	}
+	
 
 }
