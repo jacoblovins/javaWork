@@ -1,5 +1,7 @@
 package makingStatements;
 
+import java.util.List;
+
 public class User {
 
 	private String firstname;
@@ -33,7 +35,9 @@ public class User {
 	}
 	
 	
-	public static void printUser(User u) {
-		System.out.println(u.getFullName());
+	public static void printUsers(List<User> users) {
+		for(User u : users) {
+			System.out.println(u.getFullName());
+		}
 	}
 }
