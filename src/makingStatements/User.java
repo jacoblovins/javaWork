@@ -8,11 +8,14 @@ public class User {
 	private String lastname;
 	
 	public String output() {
-		
-		
-		return "Hi, my name is " + firstname + " " + lastname;			
-		
-		
+		return "Hi, my name is " + getFirstname() + " " + getLastname();				
+	}
+	
+	public String output(boolean nice) {
+		if(nice) {
+			return "You are a  beautiful person " + getFullName();
+		}
+		return "You are a freak " + getFullName();
 	}
 	
 	public String getFirstname() {
