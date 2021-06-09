@@ -9,6 +9,7 @@ public class MySweetProgram {
 		user.lastname = "Scriber";
 		
 		System.out.println(user.firstname);
+		user.output();
 	}
 
 }
