@@ -6,20 +6,22 @@ import java.util.List;
 public class MySweetProgram {
 
 	public static void main(String[] args) {
-		User me = new User();
-		me.setFirstname("Jacob");
-		me.setLastname("Lovins");
 		
-		
-		User you = new User();
-		you.setFirstname("Sub");
-		you.setLastname("Scriber");
-		
+		String[] firstnames = {"Caleb", "Sub", "Sally", "Jamie"};
+		String[] lastnames = {"Curry", "Scriber", "Smith", "Cal"};
 		List<User> users = new ArrayList<User>();
-		users.add(you);
-		users.add(me);
 		
-		System.out.println(users.get(1).getFullName());
+		for(int i = 0; i < firstnames.length; i++) {
+			User u = new User();
+			u.setFirstname(firstnames[i]);
+			u.setLastname(lastnames[i]);
+			users.add(u);
+		}
+		
+		for(User u: users) {
+			System.out.println(u.getFullName());
+		}
+		
 		
 		
 	}
