@@ -3,6 +3,7 @@ package makingStatements;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class MySweetProgram {
 
 	public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class MySweetProgram {
 		users.add(me);
 		users.add(you);
 		
-		System.out.println(User.searchList(users, "Charles", "Spurgeon"));
+		System.out.println(User.searchList(users, "Jacob", "Lovins"));
 	}
 	
 
