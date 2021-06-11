@@ -1,12 +1,12 @@
 package makingStatements;
 
-public class Teacher extends User {
+public class Teacher  {
 
-	@Override
-	public void sayHello() {
-		System.out.println("I'm a teacher. My name is " + firstname + " " + lastname);
-		
-	}
+//	@Override
+//	public void sayHello() {
+//		System.out.println("I'm a teacher.");
+//		
+//	}
 	
 
 }
