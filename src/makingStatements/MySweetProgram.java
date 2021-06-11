@@ -9,8 +9,10 @@ public class MySweetProgram {
 	public static void main(String[] args) {
 		
 		Student s = new Student();
+		s.firstname = "Jacob";
+		s.lastname = "Lovins";
 		s.major = "Mustache design";
-		System.out.println(s.major);
+		s.sayHello();
 		
 	}
 	
