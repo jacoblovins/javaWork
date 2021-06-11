@@ -70,5 +70,9 @@ public class User {
 		}
 		return -1;
 	}
+	
+	public static void changeCrap(User x) {
+		x.setFirstname("Changed");
+	}
 	 
 }

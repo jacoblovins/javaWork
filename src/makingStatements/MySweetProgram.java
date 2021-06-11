@@ -20,13 +20,9 @@ public class MySweetProgram {
 		users.add(me);
 		users.add(you);
 		
-		User search = new User();
-		search.setFirstname("Jacob");
-		search.setLastname("Lovins");
-		
-		User found = User.findUser(users, search);
-		
-		System.out.println(found);
+		int y = 4;
+		User.changeCrap(you);
+		System.out.println(you);
 	}
 	
 
