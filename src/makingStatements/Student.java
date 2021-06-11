@@ -1,6 +1,6 @@
 package makingStatements;
 
-public class Student extends User {
+public class Student extends User implements Talk {
 	public boolean verified = true;
 	public String major;
 	

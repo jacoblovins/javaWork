@@ -1,6 +1,6 @@
 package makingStatements;
 
-public abstract class User {
+public abstract class User implements Talk {
 
 	private String firstname;
 	private String lastname;
