@@ -13,14 +13,20 @@ public class MySweetProgram {
 		me.setLastname("Lovins");
 		
 		User you = new User();
-		you.setFirstname("Charles");
-		you.setLastname("Spurgeon");
+		you.setFirstname("Not");
+		you.setLastname("Me");
 		
 		List<User> users = new ArrayList<User>();
 		users.add(me);
 		users.add(you);
 		
-		System.out.println(User.searchList(users, "Jacob", "Lovins"));
+		User search = new User();
+		search.setFirstname("Jacob");
+		search.setLastname("Lovins");
+		
+		User found = User.findUser(users, search);
+		
+		System.out.println(found);
 	}
 	
 
