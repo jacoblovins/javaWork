@@ -16,6 +16,7 @@ public class Student extends User {
 	
 	@Override
 	public void sayHello() {
+		super.sayHello();
 		System.out.println("Hi, my major is " + major + ". My name is " + firstname + " " + lastname);
 	}
 }

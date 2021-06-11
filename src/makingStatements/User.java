@@ -6,6 +6,8 @@ public abstract class User {
 	public String lastname;
 	public boolean verified = false;
 	
-	public abstract void sayHello(); 
+	public void sayHello() {
+		System.out.println("User Version");
+	}
 	
 }
