@@ -12,7 +12,19 @@ public class MySweetProgram {
 		s.firstname = "Jacob";
 		s.lastname = "Lovins";
 		s.major = "Mustache design";
-		s.sayHello();
+		
+		Teacher t = new Teacher(); 
+		t.firstname = "Teach";
+		t.lastname = "er";
+		
+		List<User> users = new ArrayList<User>();
+		users.add(s);
+		users.add(t);
+		
+		for(User u : users) {
+			u.sayHello();
+		}
+		
 		
 	}
 	
